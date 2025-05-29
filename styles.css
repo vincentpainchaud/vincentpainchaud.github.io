@@ -1,0 +1,106 @@
+html {
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish', 'Garamond', sans-serif;
+    background: #f5f5f5;
+}
+
+/* Navigation bar */
+
+nav {
+    position: fixed;
+    text-align: right;
+    margin: 0px;
+    padding-top: 12px;
+    padding-right: 1%;
+    width: 99%;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    mrgin: 0px;
+    padding: 6px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Side bar */
+
+sidebar {
+    position: fixed;
+    padding-top: 100px;
+    padding-left: 10%;
+    width: 25%;
+    font-size: small;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+sidebar p {
+    margin: 5px;
+}
+
+sidebar a {
+    color: black;
+    text-decoration: none;
+}
+
+img.picture {
+    border-radius: 50%;
+}
+
+/* Main */
+
+main {
+    padding-top: 70px;
+    padding-left: 40%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 5px;
+    line-height: 15px;
+}
+
+main ul.papers {
+    padding-left: 20px;
+}
+
+main ul.papers > li {
+    padding-bottom: 6px;
+}
+
+main ul.papers > li > span {
+    color: #808080;
+}
+
+a.papertitle {
+    font-style: normal;
+    color: black;
+}
+
+em.coauthor {
+    font-style: normal;
+    color: black;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+}

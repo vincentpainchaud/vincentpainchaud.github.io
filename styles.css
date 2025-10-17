@@ -6,7 +6,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Mulish', 'Garamond', sans-serif;
+    font-family: 'Noto Sans', 'Garamond', sans-serif;
     background: #f5f5f5;
 }
 
@@ -28,7 +28,7 @@ nav ul {
 
 nav li {
     display: inline;
-    mrgin: 0px;
+    margin: 0px;
     padding: 6px;
 }
 

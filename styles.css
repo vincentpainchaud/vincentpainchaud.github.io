@@ -92,6 +92,7 @@ main ul.papers > li > span {
 
 a.papertitle {
     font-style: normal;
+    text-decoration: none;
     color: black;
 }
 
@@ -100,7 +101,8 @@ em.coauthor {
     color: black;
 }
 
-main a {
-    color: black;
+a.thesis {
+    font-style: italic;
     text-decoration: none;
+    color: #1b2cc1;
 }
